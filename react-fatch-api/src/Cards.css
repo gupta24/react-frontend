@@ -1,0 +1,306 @@
+.main-container {
+    margin: auto;
+    width: 1200px;
+    height: 900px;
+    font-family: arial;
+    position: relative;
+}
+
+.card-container {
+    width: 525px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px -5px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    border-radius: 4px;
+    background-color: white;
+    float: left;
+}
+
+.card-img{
+    position: relative;
+}
+
+.card-img img{
+    height: 180px;
+    width: 525px;
+    overflow: hidden;
+}
+
+.card-title h1{
+    font-size: 22px;
+    margin-bottom: 1.5rem;
+}
+
+.card-body p{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+.author-name p{
+    font-size: 15px;
+    color: gray;
+    float: left;
+}
+
+.date p{
+    font-size: 15px;
+    color: gray;
+    float: right;
+    margin-bottom: 1.5rem;  
+}
+
+.card-text {
+    margin: 1.4rem;
+    margin-top: 0.2rem;
+    text-align: left;
+}
+
+
+.card-img button{
+    transition: .5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 20px;
+    opacity: 0;
+    background:none;
+    border: none;
+}
+
+
+.card-img{
+    background-color: Black;
+    height: 178px;
+    transition: .5s ease;
+}
+
+.card-img:hover .imgL {
+    opacity: 0.5;
+} 
+
+
+.card-img:hover button{
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width: 660px) {
+    .main-container {
+        margin: auto;
+        width: 1200px;
+        height: 1300px;
+        font-family: arial;
+        position: relative;
+    }
+
+    .card-container {
+        width: 550px;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px -5px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        border-radius: 4px;
+        background-color: white;
+        float: left;
+    }
+
+    .card-img{
+        position: relative;
+    }
+    
+    .card-img img{
+        height: 300px;
+        width: 550px;
+        overflow: hidden;
+    }
+    
+    .card-title h1{
+        font-size: 23px;
+        margin-bottom: 1.6rem;
+    }
+    
+    .card-body p{
+        font-size: 20px;
+        color: gray;
+        margin-bottom: 1rem;
+    }
+    
+    .author-name p{
+        font-size: 18px;
+        color: gray;
+        float: left;
+    }
+    
+    .date p{
+        font-size: 18px;
+        color: gray;
+        float: right;
+        margin-bottom: 1.5rem;  
+    }
+    
+    .card-text {
+        margin: 3rem;
+        margin-top: 2rem;
+        text-align: left;
+    }
+    
+    
+    .card-img button{
+        transition: .5s ease;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-size: 40px;
+        opacity: 0;
+        background:none;
+        border: none;
+    }
+    
+    
+    .card-img{
+        background-color: Black;
+        height: 299px;
+        transition: .5s ease;
+    }
+    
+    .card-img:hover .imgL {
+        opacity: 0.5;
+    } 
+    
+    
+    .card-img:hover button{
+        color: white;
+        opacity: 1;
+        cursor: pointer;
+    }
+    
+    
+    .popup {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .main-container {
+        margin: auto;
+        width: 1200px;
+        height: 5000px;
+        font-family: arial;
+        position: relative;
+    }
+
+    .card-container {
+        width: 1000px;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px -5px;
+        margin-top: 4.5rem;
+        margin-left: 5rem;
+        border-radius: 4px;
+        background-color: white;
+        float: left;
+    }
+
+    .card-img{
+        position: relative;
+    }
+    
+    .card-img img{
+        height: 660px;
+        width: 1000px;
+        overflow: hidden;
+    }
+    
+    .card-title h1{
+        font-size: 50px;
+        margin-bottom: 2rem;
+    }
+    
+    .card-body p{
+        font-size: 36px;
+        color: gray;
+        margin-bottom: 1.5rem;
+    }
+    
+    .author-name p{
+        font-size: 30px;
+        color: gray;
+        float: left;
+    }
+    
+    .date p{
+        font-size: 30px;
+        color: gray;
+        float: right;
+        margin-bottom: 4rem;  
+    }
+    
+    .card-text {
+        margin: 3rem;
+        margin-top: 3rem;
+        text-align: left;
+    }
+    
+    
+    .card-img button{
+        transition: .5s ease;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-size: 50px;
+        opacity: 0;
+        background:none;
+        border: none;
+    }
+    
+    
+    .card-img{
+        background-color: Black;
+        height: 659px;
+        transition: .5s ease;
+    }
+    
+    .card-img:hover .imgL {
+        opacity: 0.5;
+    } 
+    
+    
+    .card-img:hover button{
+        color: white;
+        opacity: 1;
+        cursor: pointer;
+    }
+    
+    
+    .popup {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+}

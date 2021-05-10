@@ -1,0 +1,208 @@
+.popup-card-container {
+    width: 525px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px -5px;
+    border-radius: 5px;
+    background-color: white;
+    transition: all 0.7s ease;
+}
+
+.closeBtn {
+    text-align: right;
+    margin-right: 15px;
+    font-size: 24px;
+    padding: 6px;
+    color: lightgray;
+}
+
+.closeBtn:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.popup-card-img img{
+    height: 180px;
+    width: 525px;
+    overflow: hidden;
+}
+
+.popup-card-title h1{
+    font-size: 22px;
+    margin-bottom: 1.5rem;
+}
+
+.popup-card-body p{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+.popup-author-name p{
+    font-size: 15px;
+    color: gray;
+    float: left;
+}
+
+.popup-author-name img {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+
+.popup-date p{
+    font-size: 15px;
+    color: gray;
+    float: right;
+    margin-bottom: 1.5rem;  
+}
+
+.popup-card-text {
+    margin: 1.4rem;
+    margin-top: 0.2rem;
+    text-align: left;
+}
+
+
+
+@media screen and (max-width: 660px) {
+
+    .popup-card-container {
+        width: 550px;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px -5px;
+        border-radius: 5px;
+        background-color: white;
+        transition: all 0.7s ease;
+    }
+    
+    .closeBtn {
+        text-align: right;
+        margin-right: 15px;
+        font-size: 26px;
+        padding: 6px;
+        color: lightgray;
+    }
+    
+    .closeBtn:hover{
+        color: gray;
+        cursor: pointer;
+    }
+    
+    .popup-card-img img{
+        height: 300px;
+        width: 550px;
+        overflow: hidden;
+    }
+    
+    .popup-card-title h1{
+        font-size: 23px;
+        margin-bottom: 1.5rem;
+    }
+    
+    .popup-card-body p{
+        font-size: 20px;
+        color: gray;
+        margin-bottom: 1rem;
+    }
+    
+    .popup-author-name p{
+        font-size: 18px;
+        color: gray;
+        float: left;
+    }
+    
+    .popup-author-name img {
+        width: 11%;
+        height: 11%;
+        border-radius: 50%;
+        float: left;
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+    
+    
+    .popup-date p{
+        font-size: 18px;
+        color: gray;
+        float: right;
+        margin-bottom: 1.5rem;  
+    }
+    
+    .popup-card-text {
+        margin: 3rem;
+        margin-top: 2rem;
+        text-align: left;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+    .popup-card-container {
+        width: 1000px;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px -5px;
+        border-radius: 5px;
+        background-color: white;
+        transition: all 0.7s ease;
+    }
+    
+    .closeBtn {
+        text-align: right;
+        margin-right: 15px;
+        font-size: 45px;
+        padding: 6px;
+        color: lightgray;
+    }
+    
+    .closeBtn:hover{
+        color: gray;
+        cursor: pointer;
+    }
+    
+    .popup-card-img img{
+        height: 660px;
+        width: 1000px;
+        overflow: hidden;
+    }
+    
+    .popup-card-title h1{
+        font-size: 50px;
+        margin-bottom: 2rem;
+    }
+    
+    .popup-card-body p{
+        font-size: 36px;
+        color: gray;
+        margin-bottom: 3rem;
+    }
+    
+    .popup-author-name p{
+        font-size: 30px;
+        color: gray;
+        float: left;
+    }
+    
+    .popup-author-name img {
+        width: 13%;
+        height: 13%;
+        border-radius: 50%;
+        float: left;
+        margin-bottom: 30px;
+        margin-right: 10px;
+    }
+    
+    .popup-card-text {
+        margin: 3rem;
+        margin-top: 3rem;
+        text-align: left;
+    }
+
+    
+}
