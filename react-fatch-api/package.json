@@ -2,7 +2,7 @@
   "name": "react-fatch-api",
   "version": "0.1.0",
   "private": true,
-  "homepaage":"http://gupta24.github.io/react-frontend.git",
+  "homepage":"http://gupta24.github.io/react-frontend",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
