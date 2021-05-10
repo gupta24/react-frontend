@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <Cards users={user}/>
     </div>
-  );
+  ); 
 }
 
 export default App;
